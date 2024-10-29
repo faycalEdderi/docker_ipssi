@@ -1,3 +1,10 @@
+## Installation
+
+```bash
+docker build -t wordpress-ipssi-container .
+docker run -d -p 8080:80 --name wordpress-container wordpress-ipssi-container
+```
+
 ## Instructions
 
 Vous devrez, dans un seul conteneur Docker, mettre en place un serveur web.  
